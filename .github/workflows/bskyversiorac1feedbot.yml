@@ -1,8 +1,8 @@
 name: VersioRac1FeedBot
 on:
   schedule:
-    # This will run every five minutes. Alter it using https://crontab.guru/.
-    - cron: '*/5 * * * *'
+    # “At 12:05.”
+    - cron: '5 16 * * *'
   workflow_dispatch: # This allows manually running the workflow from the GitHub actions page
 concurrency:
   group: feedbot
