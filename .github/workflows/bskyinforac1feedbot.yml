@@ -1,4 +1,4 @@
-name: FeedBot
+name: InfoRac1FeedBot
 on:
   schedule:
     # This will run every five minutes. Alter it using https://crontab.guru/.
